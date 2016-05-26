@@ -1,0 +1,61 @@
+body{
+      background-color: rgb(78, 74, 74);
+}
+
+section{
+
+  color: white;
+  text-align: center;
+}
+h1{
+    font-size: 5em;
+}
+button{
+   width: 80px;
+   height: 40px;
+    background-color: orange;
+    color: white;
+    border: 0px;
+}
+.btnstop{
+    background-color: rgb(100, 93, 93);
+}
+button:hover{
+    background-color: rgb(212, 168, 131);
+    letter-spacing: 5px;
+    transition: 0,5s;
+    padding: 2px;
+}
+.numberran{
+    color: wheat;
+}
+.numb{
+   animation: apparitions 2s ease-out ;
+}
+@keyframes apparitions{
+    0%{
+        font-size: 1em;
+        color: black;
+        transform: translate(-100px,75px);
+    }
+    25%{
+        font-size: 2em;
+        color: orange;
+        transform: translate(-100px,50px);
+    }
+    50%{
+        font-size: 3em;
+        color: rgb(47, 201, 111px);
+        transform: translate(-600px,30px);
+    }
+    75%{
+        font-size: 6em;
+        color: rgb(47, 201, 111px);
+        transform: translate(-80px,30px);
+    }
+    100%{
+        font-size: 5px;
+        color: rgb(46, 16, 179);
+        transform: translate(-40px,-10px);
+    }
+}
